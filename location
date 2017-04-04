@@ -1,0 +1,7 @@
+import geocoder
+lng = []
+lat = []
+for i in list_names:
+    g = geocoder.google(i)
+    lat.append(g.lat)
+    lng.append(g.lng)
